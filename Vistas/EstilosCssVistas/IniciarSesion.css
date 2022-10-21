@@ -1,0 +1,16 @@
+﻿body {
+    background-color: #e9f5f9;
+}
+
+
+.main {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.Items{
+    margin:5px 0px;
+}

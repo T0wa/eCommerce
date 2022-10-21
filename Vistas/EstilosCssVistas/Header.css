@@ -1,0 +1,59 @@
+﻿* {
+    font-family: Open Sans;
+   /* margin:0.15%;*/
+}
+
+
+.header {
+    margin: 0.5% 1%;
+    padding-right:100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #a0d7ff;
+    border: #d5f1f8 solid;
+    border-radius: 10px;
+}
+
+
+.MenuUl {
+    list-style: none;
+    list-style-position: outside;
+    display: flex;
+    align-items: center;
+}
+
+    .MenuUl li {
+        margin-top:15px;
+        display: inline-block;
+        padding: 2% 15%;
+    }
+
+    .MenuUl .TextMenu {
+        word-break:keep-all;
+        white-space: nowrap;
+        width: 24px;
+        color: #ffffff;
+        font-size: 15px;
+        padding: 2% 15%;
+        text-decoration: none;
+    }
+
+.logo span {
+    font-family: Play;
+    font-size: 23px;
+    color: #a0d7ff;
+    background-color: #fdfdfd;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.menu .TextMenu:hover {
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 10px;
+}
+
+body {
+}

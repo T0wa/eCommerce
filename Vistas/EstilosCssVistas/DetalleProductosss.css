@@ -1,0 +1,113 @@
+﻿body {
+}
+
+.MainResenias {
+    border: solid #d5f1f8 5px;
+    border-radius: 5px;
+    padding: 40px;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin: 1% 7.5%;
+}
+
+
+.presentacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+
+.main {
+    border: solid #d5f1f8 5px;
+    border-radius: 5px;
+    padding: 70px 40px;
+    width: 85%;
+    margin: 1% 7.5%;
+}
+
+.especificacionesContenedor {
+    max-width: 70%;
+    display:flex;
+    margin:auto;
+    margin-top:40px;
+}
+    
+    .especificacion h4{
+        text-align:left;
+    }
+
+.especificacionesContenedor .Detalle {
+    font-size: 16px;
+ 
+    
+}
+
+.Descripcion {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+    .Descripcion ul {
+        list-style: none;
+        list-style-position: outside;
+        margin-bottom: 3%;
+    }
+
+    .Descripcion .Promocion {
+        padding: 0;
+        list-style-type: none;
+        color: #385239;
+    }
+
+    .Descripcion .NombreProd, .Precio {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+.Producto {
+    width: 50%;
+    text-align: start;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.Detalle {
+    font-size: 13px;
+}
+
+.img {
+    width: 325px;
+}
+
+
+.AgregarReseniaContenedor ul {
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+.AgregarReseniaContenedor li{
+    margin-bottom: 10px;
+}
+
+.starIngreso {
+    color: #899291;
+}
+
+    .starIngreso:hover {
+        color: gold;
+    }
+
+.Item {
+    margin-bottom: 5px;
+}

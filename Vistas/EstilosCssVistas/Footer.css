@@ -1,0 +1,33 @@
+﻿.ContenedorFooter {
+    margin: 0.5% 1%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a0d7ff;
+    color: #fff;
+    border: #d5f1f8 solid;
+    border-radius: 10px;
+    padding: 0px 60px;
+}
+
+.logos {
+    display: flex;
+    justify-content: baseline;
+}
+
+    .logos .Iconos {
+        font-size: 50px;
+        margin: 15px;
+        color: #ffffff;
+    }
+
+    .logos .img {
+        margin-top: 27px;
+        margin-right: 19px;
+        border-radius: 5px;
+    }
+
+h6{
+    font-size:13px;
+}

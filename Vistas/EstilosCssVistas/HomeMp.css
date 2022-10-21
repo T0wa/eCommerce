@@ -1,0 +1,159 @@
+﻿body {
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 40px;
+    
+}
+
+.ItemTemplate ul {
+    margin: 5px;
+    padding: 5px;
+    border: solid 1.5px #676767;
+    border-radius: 5px;
+}
+
+.Nombre {
+    margin-top: 5px;
+    word-wrap: break-word;
+    width: 200px;
+    height: 57px;
+}
+
+.NombreText {
+    text-align: center;
+}
+
+.Boton {
+    font-size: 12px;
+    color: #fff;
+    padding: 3px 20px;
+    background-color: #a0d7ff;
+    font-weight: bold;
+    border: solid 1px #d5f1f8;
+    border-radius: 5px;
+}
+
+    .Boton:hover {
+        background-color: #c5effa;
+    }
+
+/* -----Buscador----*/
+
+
+/*------ItemTemplate------*/
+
+.ProdDiv li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+    .main .ProdDiv {
+        margin-left: 10px;
+    }
+
+    .ItemTemplate ul {
+        margin: 5px;
+        padding: 7px;
+        border: solid 1.5px #676767;
+        border-radius: 5px;
+    }
+
+    .Nombre {
+        margin-top:5px;
+        word-wrap: break-word;
+        width: 200px;
+        height:70px;
+        
+
+    }
+
+    .NombreText {
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .img{
+        width:130px;
+        height:130px;
+        
+    }
+
+    .Precio{
+        font-size:19px;
+    }
+
+.Boton {
+    font-size: 12px;
+    color: #fff;
+    padding: 8px 22px;
+    background-color: #a0d7ff;
+    font-weight: bold;
+    border: solid 1px #d5f1f8;
+    border-radius: 5px;
+}
+
+    .Boton:hover {
+        background-color: #c5effa;
+    }
+
+/*------FILTROS------*/
+.preciosBloque {
+    display:inline-block;
+}
+    .Filtros .prBlock {
+        color: dimgray;
+    }
+
+    .Filtros h6 {
+        color: dimgray;
+    }
+
+    .preciosBloque, .txtPrecio::placeholder {
+        font-size: 15px;
+    }
+
+
+.Filtros {
+    margin-top: 0.6%;
+    background-color: #fff;
+    border: solid #000 1px;
+    border-radius: 8px;
+    width: 320px;
+    height: 450px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* -----Buscador----*/
+.HeaderBuscador {
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.Buscador {
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.Buscador li{
+    display:inline-block;
+    margin:0px 5px;
+}
+
+    .Buscador .form-control {
+        Width: 450px;
+        height: 40px;
+    }

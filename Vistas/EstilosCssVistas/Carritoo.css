@@ -1,0 +1,79 @@
+﻿body {
+}
+
+.main {
+   
+}
+
+.Filas {
+    border: solid #808080 2px;
+    border-radius: 20px;
+}
+
+
+.contenedorCarro {
+    margin:0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.contenedorConfirmacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0.5% 30%;
+    align-items: center;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #d1ecff;
+    padding: 0.5%;
+    border: solid #CAE6FB 5px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+
+.ItemsCarro {
+    border: solid #CAE6FB 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+
+.eliminar .IconosCarro {
+    margin-right: -20px;
+}
+
+.Izquierda{
+    margin:5px -20px;
+}
+
+.IconosCarro {
+    font-size: 18px;
+    color: #76b5c5;
+}
+
+.ItemsCarro div{
+    margin:5px 30px;
+}
+
+.Cant {
+    border: solid 1px #808080;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.precio, .Cant{
+    margin-left:100px;;
+}
+
+.Cant, .CantText, .IconosCarro {
+    margin: 50px 7px;
+}
+
+.CantText{
+    font-size:17px;
+}

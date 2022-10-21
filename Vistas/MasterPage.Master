@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Vistas.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+    <head runat="server">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Mercado gamer</title>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+        <link href="EstilosCssVistas/Footer.css" rel="stylesheet" />
+        <link href="EstilosCssVistas/Header.css" rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/3c33daaf69.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Play" />
+    </head>
+    <body>
+        <form id="form1" runat="server">
+            <div>
+                <div class="menu">
+                    <div class="header">
+                        <div class="logo">
+                            <span>Mercado Gamer</span>
+                        </div>
+                        <ul class="MenuUl"> 
+                            <li>
+                                <asp:HyperLink ID="hlNombreUsuario" CssClass="TextMenu" runat="server" ></asp:HyperLink>
+                                <asp:HyperLink ID="hlFuncionesAdmin" CssClass="TextMenu" runat="server" NavigateUrl="~/Admin.aspx" Visible="False">Funciones Admin</asp:HyperLink>
+                                <asp:HyperLink ID="hlReporteVentas" CssClass="TextMenu" runat="server" EnableViewState="False" NavigateUrl="~/Reportess.aspx" Visible="False">Reporte ventas</asp:HyperLink>
+                            </li>
+                            <li>
+                                <asp:HyperLink ID="hlHome" CssClass="TextMenu" runat="server" NavigateUrl="~/HomeMp.aspx">Home</asp:HyperLink>
+                            </li>
+                            <li>
+                                <asp:HyperLink ID="hlUsuario" CssClass="TextMenu" runat="server"></asp:HyperLink>
+                                <asp:LinkButton ID="lbCerrarSesion" CssClass="TextMenu" runat="server" Visible="false" OnClick="lbCerrarSesion_Click" OnClientClick="return confirm('¿Esta seguro que quiere cerrar sesión?')">Cerrar sesión</asp:LinkButton>
+                            </li>
+                            <li>
+                                <asp:LinkButton ID="CarritoLb" runat="server" style="font-size:20px; color:#fff;" Text='<i class="fa-solid fa-cart-shopping"></i>' OnClick="CarritoLb_Click"></asp:LinkButton>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+
+                <div class="ContenedorFooter">
+                    <div class="texto">
+                        <h5>Compra gamer</h5>
+                        <h6>Proyecto UTN FRGP</h6>
+                    </div>
+
+                    <div class="logos">
+                        <asp:ImageButton ID="UtnLogo" CssClass="img" runat="server" width="50px" height="50px" ImageUrl="~/ImagenesHeader/utn frgp.png" OnClick="UtnLogo_Click" />
+                        <asp:LinkButton ID="lbLinkedin" CssClass="Iconos" runat="server" Text='<i class="fa-brands fa-linkedin"></i>' OnClick="lbLinkedin_Click"></asp:LinkButton>
+                        <asp:LinkButton ID="lbGit" CssClass="Iconos" runat="server" Text='<i class="fa-brands fa-github"></i>' OnClick="lbGit_Click"></asp:LinkButton>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </body>
+</html>
